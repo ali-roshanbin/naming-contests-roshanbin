@@ -1,3 +1,4 @@
+
 // We can run this Script through this command >> babel-node loadTestData.js
 
 import { MongoClient } from 'mongodb';
