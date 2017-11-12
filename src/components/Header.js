@@ -2,9 +2,9 @@ import React from 'react';
 
 const Header = ({ message }) => {
     return (
-        <h4 className="Header text-center">
+        <h3 className="Header text-center">
             {message}
-        </h4>
+        </h3>
     );
 };
 
