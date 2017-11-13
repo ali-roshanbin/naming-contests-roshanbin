@@ -22492,7 +22492,7 @@
   \**********************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
@@ -22508,9 +22508,15 @@
 	    var message = _ref.message;
 	
 	    return _react2.default.createElement(
-	        'h3',
-	        { className: 'Header text-center' },
-	        message
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	            "h3",
+	            { className: "Header text-center" },
+	            message
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement("img", { src: "/Ali.jpg", className: "center-block img-rounded img-responsive", alt: "Ali Roshanbin", height: "200", width: "200" })
 	    );
 	};
 	

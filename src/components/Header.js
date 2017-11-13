@@ -2,9 +2,13 @@ import React from 'react';
 
 const Header = ({ message }) => {
     return (
-        <h3 className="Header text-center">
-            {message}
-        </h3>
+        <div>
+            <h3 className="Header text-center">
+                {message}
+            </h3>
+            <br />
+            <img src="/Ali.jpg" className="center-block img-rounded img-responsive" alt="Ali Roshanbin" height="200" width="200" />
+        </div>
     );
 };
 
